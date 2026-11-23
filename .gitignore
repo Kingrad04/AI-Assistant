@@ -1,0 +1,12 @@
+# Private: your API key, name and settings
+config.json
+
+# Private: your tasks and remembered facts (also covers damaged-file backups and temporary save files)
+assistant_data*.json
+
+# Error log from the window that opens at login
+morning_error.log
+
+# Files Python and macOS create on their own
+__pycache__/
+.DS_Store

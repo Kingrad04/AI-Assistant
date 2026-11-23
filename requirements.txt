@@ -1,0 +1,5 @@
+anthropic
+# Optional extras for the menu bar / tray icon (see README):
+pyobjc-framework-Cocoa; sys_platform == "darwin"   # hides the Python icon in the Mac Dock
+pystray; sys_platform != "darwin"                  # tray icon on Windows/Linux when Tk is older than 9
+Pillow; sys_platform != "darwin"                   # used by pystray
